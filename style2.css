@@ -1,0 +1,181 @@
+
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 0px;
+  background-color: rgb(26, 25, 25);
+}
+li:first-child
+{
+  margin-left: 0px;
+}
+
+a
+{
+  text-decoration: none;
+  color: bisque;
+}
+header ul li::after
+{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0;
+  height: 1.5px;
+  background-color: white;
+  transform: translateX(-90%);
+}
+header ul li:hover::after
+{
+width: 75px;
+}
+li
+{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: -0.5%;
+  top: 0;
+  color: bisque;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  z-index: 1;
+}
+body
+{
+  background-color:black;
+  margin: 0;
+  padding: 0;
+}
+p
+{
+  color: antiquewhite;
+  text-align: center;
+}
+header
+{
+  background-color: rgb(26, 25, 25);
+  padding: 15px 15px 15px 20px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+body
+{
+  z-index: 0;
+  background-image: url("https://wallpaperswide.com/download/light_blue_background_i-wallpaper-2560x1440.jpg");
+}
+
+.button:hover {
+    background-color: black
+}  
+.button:active {
+    transform: translateY(2px);  /* Click effect */
+}
+.aifor
+{
+  border-radius: 20px; 
+  width: 42%;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  right: 4%;
+  left: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.title
+{
+  font-size: 40px;
+  font-family: "monaco", monospace ;
+  position: relative;
+  top: 65px;
+  text-align: center;
+}
+.aifor2
+{
+  border-radius: 20px; 
+  width: 42%;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 4%;
+  right: auto;
+}
+.video1desc
+{
+  font-size: 22px;
+  font-family: "monaco", monospace ;
+  color: bisque;
+  position: absolute;
+  top: 83%;
+  left: 7%;
+
+}
+.marques
+{
+  text-align: center
+}
+.video2desc
+{
+  font-size: 22px;
+  font-family: "monaco", monospace ;
+  color: bisque;
+  position: absolute;
+  top: 83%;
+  right: 11%;
+}
+.yin
+{
+  text-align: center;
+  left: auto;
+  right: 4%;
+}
+.title2
+{
+  font-size: 40px;
+  font-family: "monaco", monospace ;
+  position:absolute;
+  left: 34%;
+  top: 88%;
+}
+.csfor
+{
+  border-radius: 20px; 
+  width: 42%;
+  height: auto;
+  position: absolute;
+  top: 107%;
+  left: 4%;
+  right: auto;
+}
+.csfor2
+{
+  border-radius: 20px; 
+  width: 42%;
+  height: auto;
+  position: absolute;
+  top: 107%;
+  left: auto;
+  right: 4%;
+}
+.video4desc
+{
+  font-size: 22px;
+  font-family: "monaco", monospace ;
+  color: bisque;
+  position: absolute;
+  top: 157%;
+  right: 10%; 
+}
+.video3desc
+{
+  font-size: 22px;
+  font-family: "monaco", monospace ;
+  color: bisque;
+  position: absolute;
+  top: 157%;
+  left: 4%;
+
+}

@@ -1,0 +1,280 @@
+
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 0px;
+  background-color: rgb(26, 25, 25);
+}
+li:first-child
+{
+  margin-left: 0px;
+}
+.features
+{
+  width:auto ;
+  display: flex;
+}
+a
+{
+  text-decoration: none;
+  color: bisque;
+}
+li
+{
+  top: 0;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 0%;
+  color: bisque;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  z-index: 5;
+}
+body
+{
+  background-image: url("https://wallpaperswide.com/download/light_blue_background_i-wallpaper-2560x1440.jpg");
+  margin: 0;
+  padding: 0;
+}
+p
+{
+  color: antiquewhite;
+  text-align: center;
+}
+header
+{
+  background-color: rgb(26, 25, 25);
+  padding: 15px 15px 15px 20px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+header ul li::after
+{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0;
+  height: 1.5px;
+  background-color: white;
+  transform: translateX(-90%);
+}
+header ul li:hover::after
+{
+width: 75px;
+}
+body
+{
+    z-index: 0;
+}
+.button1
+{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left:18%;
+    z-index: 2;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.CS
+{
+   width: 45%;
+   height: auto;
+   position: absolute;
+   top: 150px;
+   border-radius: 30px;
+   display: block;
+   right: auto;
+   left: 4%;
+}
+  
+.button1:hover {
+    background-color: black
+}  
+.button1:active {
+    transform: translateY(2px);
+}
+.aifor
+{
+  border-radius: 15px; 
+  width: 20%;
+  height: auto;
+}
+.PC
+{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 150px;
+  border-radius: 30px;
+  display: block;
+  right: 4%;
+  left: auto; 
+}
+.AI
+{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 60px;
+  border-radius: 30px;
+  display: block;
+  bottom: 4%;
+  left: 4%;
+  right: auto;
+  top: 90%;
+}
+.PR
+{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 60px;
+  border-radius: 30px;
+  display: block;
+  bottom: 4%;
+  left: auto;
+  right: 4%;
+  top: 90%;
+}
+.welcome
+{
+  font-family: "monaco", monospace;
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  font-size: 30px;
+  left: 2%;
+}
+.desc1
+{
+  font-size: 32px;
+  font-family: "copperplate", fantasy;
+  color: white;
+  position: absolute;
+  left: 19%;
+  top: 75%;
+  z-index: 10;
+}
+.desc3
+{
+  font-size: 32px;
+  font-family: "copperplate", fantasy;
+  color: white;
+  position: absolute;
+  left: 16%;
+  top: 142%;
+  z-index: 10;
+}
+.desc4
+{
+  font-size: 32px;
+  font-family: "copperplate", fantasy;
+  color: white;
+  position: absolute;
+  right: 20%;
+  top: 142%;
+  z-index: 10;
+}
+.desc2
+{
+  font-size: 32px;
+  font-family: "copperplate", fantasy;
+  color: white;
+  position: absolute;
+  right: 26%;
+  top: 75%;
+  z-index: 10;
+}
+.under
+{
+  position: relative;
+  top: 200%;
+  width: 100%;
+  height: 20%;
+}
+.welcometoblogs
+{
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+}
+.button2:hover {
+  background-color: black
+}  
+.button12:active {
+  transform: translateY(2px);
+}.button3:hover {
+  background-color: black
+}  
+.button3:active {
+  transform: translateY(2px);
+}.button4:hover {
+  background-color: black
+}  
+.button4:active {
+  transform: translateY(2px);
+}
+.button2
+{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    right:16%;
+    z-index: 2;
+    transition: background-color 0.3s, transform 0.3s;
+}.button3
+{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left:19.5%;
+    z-index: 2;
+    transition: background-color 0.3s, transform 0.3s;
+}.button4
+{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    right:18%;
+    z-index: 2;
+    transition: background-color 0.3s, transform 0.3s;
+}
